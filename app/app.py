@@ -5,5 +5,5 @@ app = Flask(__name__)
 def home():
     return "Cloud & Devops production Platfrom Docker Deployment"
 
-if __name__ == "__main ":
+if __name__ == "__main":
     app.run(host="0.0.0.0", port=5000)
