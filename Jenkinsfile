@@ -11,7 +11,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Building application'
+                sh 'docker build -t flask-app:latest ./app'
             }
         }
 
